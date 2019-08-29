@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="msapplication-tap-highlight" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=11;">
+<title>MY SCHOOL APP - account_create</title>
+<meta name="description" content=""><!--ADD WEB DESCRIPTION-->
+<meta name="keywords" content=""><!--ADD WEB KEYWORDS-->
+<meta name="author" content=""><!--ADD WEB AUTHOR-->
+<!--<link rel="shortcut ico" href="img/favico.ico">-->
+<link rel="stylesheet" href="css/mySchoolApp.css">
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/mySchoolApp.js"></script>
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/ie9.js"></script>
+<![endif]-->
+</head>
+<body class="page-parent">
+<div class="main">
+	<header class="main-header">
+		<div class="header-area">
+			<a href="#" class="icon-back"></a>
+			<h1 class="main-title">Create Account</h1>
+		</div>
+	</header>
+	<div class="main-container">
+		<div class="register">
+			<div class="icon-parent"></div>
+			<h2 class="register-title">Parent</h2>
+
+			<div class="u-form">
+				<div class="u-form-item">
+					<label class="u-form-txt">Name <sup>*</sup></label>
+					<div class="u-input">
+						<input type="text">
+					</div>
+				</div>
+				<div class="u-form-item">
+					<label class="u-form-txt">Birth <sup>*</sup></label>
+					<div class="u-input">
+						<div class="u-fakeInput">
+							<input type="date" class="date-hide" id="inputDate">
+							<p class="u-fakeInput-val placeholder" id="showValue">DD-MM-YYYY</p>
+						</div>
+						<!-- CALENDAR UI SAMPLE -->
+						<script>
+							function addEventHandler(elem, eventType, handler) {
+						        if (elem.addEventListener)
+						            elem.addEventListener (eventType, handler, false);
+						        else if (elem.attachEvent)
+						            elem.attachEvent ('on' + eventType, handler); 
+						    }
+						    addEventHandler(document, 'DOMContentLoaded', function() {
+						        addEventHandler(document.getElementById('inputDate'), 'change', function() {
+						        	var elem = document.getElementById('showValue');
+						        	var pickDate = new Date( this.value );
+						        	var dd = pickDate.getDate();
+						        	var mm = pickDate.getMonth();
+						        	var yyyy = pickDate.getFullYear();
+						        	
+						        	if (dd < 10) {
+										dd = '0' + dd;
+									} 
+									if (mm < 10) {
+										mm = '0' + mm;
+									} 
+						            elem.classList.remove('placeholder');
+						            elem.textContent = dd  + "" + mm + "" + yyyy;
+						        });
+						    });
+						</script>
+						<!-- //CALENDAR UI SAMPLE -->
+					</div>
+					<p class="u-form-PS u-txt-R">*일, 월, 연도 순으로 공백 없이 입력해주세요.</p>
+				</div>
+				<div class="u-form-item">
+					<label class="u-form-txt">MyNumber <sup>*</sup></label>
+					<div class="u-input is-active">
+						<input type="tel">
+					</div>
+				</div>
+			</div>
+			<div class="main-action">
+				<a href="#" class="btn-default">Create ID</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

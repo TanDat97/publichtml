@@ -1,0 +1,255 @@
+$parent-theme: (
+	'bg': #F2F7F4,
+	'focus': #2BB470,
+	'border': #D6E2E2,
+	'bar': #c4ecd4,
+	'circle': #e9edee,
+	'card': #cdecda,
+	'cardBorder': #d6e2e2,
+	'icon': url(../img/parent_icon.png)
+);
+$teacher-theme: (
+	'bg': #EEE,
+	'focus': #265492,
+	'border': #BAC2C8,
+	'bar': #C2D6F2,
+	'circle': #e2e4e5,
+	'card': #d2dde8,
+	'cardBorder': #bac2c8,
+	'icon': url(../img/teacher_icon.png)
+);
+
+//Theme
+.page-parent {
+	background-color: map-get($parent-theme, 'bg');
+
+	.search,
+	.popupCopy .popupBox {
+		background-color: map-get($parent-theme, 'bg');
+	}
+	.popupBox-title,
+	.menu-item.is-active .menu-txt,
+	.line-item.is-active a,
+	.account-id,
+	.basicInfo-name .name,
+	.basicInfo-top .basicInfo-name,
+	.attach-link,
+	.payment-price,
+	.noData-link,
+	.notice-link,
+	.module-title,
+	//a:hover, a:focus,
+	.u-calendar-to:before,
+	.u-link:hover, .u-link:focus,
+ 	h2,
+	.c-focus,
+	.otp-count,
+	.myCard-type,
+	.cardPay-price,
+	.cardPay-unit,
+	.u-focusLink {
+		color: map-get($parent-theme, 'focus');
+	}
+	.btn-square,
+	.btn-default,
+	.btn-change,
+	.is-withIntro,
+	.line-item:after {
+		background-color: map-get($parent-theme, 'focus');
+	}
+	.btn-signup,
+	.btn-card,
+	.btn-payment {
+		background-color: map-get($parent-theme, 'bg');
+		border-color: map-get($parent-theme, 'focus');
+		color: map-get($parent-theme, 'focus');
+	}
+	.popupDown-clear .popupBox,
+	.account,
+	input[type=text],
+	input[type=password],
+	input[type=number],
+	input[type=tel],
+	input[type=email],
+	input[type=date],
+	.u-fakeInput,
+	.u-box,
+	.payment-box {
+		border-color: map-get($parent-theme, 'border');
+	}
+
+	.header-area,
+	.popupDown-clear .popupBox-top,
+	.timeTable-top,
+	.u-tb-list .u-tc,
+	.payment-title,
+	.popupFull .popupBox-top {
+		border-bottom-color: map-get($parent-theme, 'border');
+	}
+	.announce-info,
+	.announce-inner,
+	.main-menu {
+		border-top-color: map-get($parent-theme, 'border');
+	}
+	.u-tb-list .u-tc + .u-tc {
+		border-left-color: map-get($parent-theme, 'border');
+	}
+	.load-bar {
+		background-color: map-get($parent-theme, 'bar');
+	}
+	[class*='icon-'] {
+		background-image: map-get($parent-theme, 'icon');
+	}
+	.basicInfo-pic,
+	.notice-pic {
+		background-color: map-get($parent-theme, 'circle');
+	}
+	.myCard-view {
+		background-color: map-get($parent-theme, 'card');
+	}
+	.myCard-layout {
+		border-color: map-get($parent-theme, 'cardBorder');
+	}
+	.icon-plus i {
+		background-color: map-get($parent-theme, 'cardBorder');
+	}
+	//**/
+	.myCard-regist {
+		background-image: url(../img/parent_card.png);
+	}
+	.payment-box {
+		@include boxShadow(0, toEm(-3, $MO_FONT), toEm(20, $MO_FONT), #9FBCBC);
+	}
+}
+.page-teacher {
+	background-color: map-get($teacher-theme, 'bg');
+
+	.search,
+	.popupCopy .popupBox {
+		background-color: map-get($teacher-theme, 'bg');
+	}
+	.popupBox-title,
+	.menu-item.is-active .menu-txt,
+	.line-item.is-active a,
+	.account-id,
+	.basicInfo-name .name,
+	.basicInfo-top .basicInfo-name,
+	.attach-link,
+	.payment-price,
+	.noData-link,
+	.notice-link,
+	.module-title,
+	//a:hover, a:focus,
+	.u-calendar-to:before,
+	.u-link:hover, .u-link:focus,
+	h2,
+	.c-focus,
+	.popInfo-inner .basicInfo-name,
+	.period-spance,
+	.attend-PS,
+	.otp-count,
+	.myCard-type,
+	.cardPay-price,
+	.cardPay-unit,
+	.u-focusLink {
+		color: map-get($teacher-theme, 'focus');
+	}
+	.btn-square,
+	.btn-default,
+	.btn-change,
+	.is-withIntro,
+	.line-item:after {
+		background-color: map-get($teacher-theme, 'focus');
+	}
+	.btn-signup,
+	.btn-card,
+	.btn-payment {
+		background-color: map-get($teacher-theme, 'bg');
+		border-color: map-get($teacher-theme, 'focus');
+		color: map-get($teacher-theme, 'focus');
+	}
+	.popupDown-clear .popupBox,
+	.account,
+	input[type=text],
+	input[type=password],
+	input[type=number],
+	input[type=tel],
+	input[type=email],
+	input[type=date],
+	.u-fakeInput,
+	.u-box,
+	.payment-box,
+	.u-table {
+		border-color: map-get($teacher-theme, 'border');
+	}
+	.header-area,
+	.popupDown-clear .popupBox-top,
+	.timeTable-top,
+	.u-tb-list .u-tc,
+	.popInfo-inner,
+	.payment-title,
+	.popupFull .popupBox-top {
+		border-bottom-color: map-get($teacher-theme, 'border');
+	}
+	.announce-info,
+	.announce-inner,
+	.main-menu,
+	.u-table td,
+	.popInfo-item,
+	.period-header {
+		border-top-color: map-get($teacher-theme, 'border');
+	}
+	.u-tb-list .u-tc + .u-tc {
+		border-left-color: map-get($teacher-theme, 'border');
+	}
+	.u-table th + th:before {
+		background-color: map-get($teacher-theme, 'border');
+	}
+	.load-bar {
+		background-color: map-get($teacher-theme, 'bar');
+	}
+	[class*='icon-'] {
+		background-image: map-get($teacher-theme, 'icon');
+	}
+	.basicInfo-pic{
+		background-color: map-get($parent-theme, 'circle');
+	}
+	.notice-pic {
+		background-color: map-get($teacher-theme, 'circle');
+	}
+	.receiList-date {
+		color: map-get($teacher-theme, 'border');
+	}
+	.myCard-view {
+		background-color: map-get($teacher-theme, 'card');
+	}
+	.myCard-layout{
+		border-color: map-get($teacher-theme, 'cardBorder');
+	}
+	.icon-plus i {
+		background-color: map-get($teacher-theme, 'cardBorder');
+	}
+	//**/
+	.timeTable-title {
+		font-size: toEm(30, $MO_FONT);
+	}
+	.timeTable-top {
+		padding-top: toEm(7, $MO_FONT);
+		padding-bottom: toEm(11, $MO_FONT);
+	}
+	.timeTable-info {
+		padding-top: toEm(15, $MO_FONT);
+	}
+	.timeTable-time {
+		padding-top: toEm(6, $MO_FONT);
+	}
+	.c-unread {
+		color: #EF637E;
+	}
+	.myCard-regist {
+		background-image: url(../img/teacher_card.png);
+	}
+	.payment-box {
+		@include boxShadow(0, toEm(-3, $MO_FONT), toEm(20, $MO_FONT), #9FA9BC);
+	}
+}
