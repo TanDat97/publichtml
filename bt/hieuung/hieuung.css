@@ -1,0 +1,54 @@
+.bo {
+    width: 240px;
+    height: 240px;
+    position: relative;
+    background: lightgray;
+}
+.bo .layer1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.bo .layer2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+    width: 240px;
+    height: 240px;
+    background: lightblue;
+    text-align: center;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+.bo .layer2 .tieude {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 80px;
+}
+.bo .layer2 .tacgia {
+    font-size: 12px;
+    color: rgb(158, 75, 91);
+}
+.bo .layer2 .nut {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    opacity: 0;
+    transition: 4s;
+} 
+.bo:hover .layer2 {
+    opacity: 1;
+    top: 10px;
+    left: 10px;
+}
+.bo:hover .layer2 .nut {
+    opacity: 1;
+}

@@ -1,0 +1,31 @@
+.to
+{
+  width: 310px;
+  height: 340px;
+  margin: auto;
+  position: relative;
+}
+
+.to .layer1
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.a
+{
+  text-decoration: none;
+  color: black;
+  font-family: tahoma;
+  font-weight: bold;
+}
+
+.to .layer2
+{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  z-index: 2;
+}

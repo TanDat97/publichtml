@@ -1,0 +1,127 @@
+.top{
+    background-image: url(../images/bg-header-1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.mtren{
+    background: transparent;
+    transition: 0.5s;
+}
+
+.mtren.nenxam{
+    background: #c6cbd1;
+}
+
+a.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    background: #ec6952;
+    padding: 20px 25px;
+    position: relative;
+    top: -8px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: 700;
+}
+
+.top .mphai a.nav-link {
+    text-transform: uppercase;
+    padding: 20px 20px;
+    font-size: 13px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.4s;
+}
+
+.top .mphai li.active a.nav-link {
+    color: #ec6952;
+}
+
+.top .mphai a.nav-link.nutsignup{
+    border-color: white;
+    padding: 10px 12px;
+    margin-top: 10px;
+}
+
+.top .mphai a.nav-link.nutsignup:hover{
+    background-color: #ec6952;
+    border-color: #ec6952;
+    color: white;
+}
+
+.top .mphai a.nav-link:hover{
+    color:#ec6952;
+}
+
+.banner h1{
+    color: #dbdbdb;
+    padding-top: 250px;
+}
+
+.banner p{
+    color: gray;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+
+.banner a{
+    font-size: 20px;
+    font-weight: 700;
+    background: #ec6952;
+    padding: 12px 15px;
+}
+
+.carousel-indicators li{
+
+}
+
+.carousel-indicators li.active{
+    background: #ec6952;
+}
+
+.logo{
+    transition: 0.5s;
+}
+
+.logo.chucam{
+    background: white;
+    color:  #ec6952;
+}
+
+.nutlen{
+    transition: 0.5;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.nutlen.hienthi{
+    opacity: 1;
+}
+
+@media(max-width:576px){
+    .mphai{
+        background: #253340;
+        padding: 15px;
+    }
+    .top .mphai a.nav-link{
+        padding: 15px;
+    }
+    .top{
+        height: 650px;
+    }
+    .banner h1{
+        padding-top: 125px;
+        font-size: 35px;
+    }
+}
+
+.bgslide{
+    background: #dbdbdb;
+}
+
+.slidepadding{
+    padding: 70px 0px;
+}
+

@@ -1,0 +1,133 @@
+*
+{
+	margin: 10px;
+	padding: 0px;
+}
+.tren
+{
+	width: 700px;
+	height: 40px;
+	border-top: 1px solid  gray;
+	padding-top: 13px;
+	margin:auto;
+	margin-top:100px;
+}
+a.xt
+{
+	float:right;
+	margin-top: -37px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a.xt:hover
+{
+	color:red;
+}
+a.tdto
+{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-family: tahoma;
+	color: #ff00ca;
+	font-size: 25px;
+	font-style: bold;
+	text-transform: uppercase;
+	font-family: tahoma;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center;
+}
+a.tdto:hover
+{
+	color: red;
+}
+
+.icon
+{
+
+	width: 700px;
+	height: 100px;
+	text-align: center;
+	margin: auto;	
+	margin-top: 20px;
+
+}
+
+._1icon
+{
+	width: 50px;
+	height: 70px;
+	background-color: blue;
+	display: inline-block;	
+}
+
+a.chuaicon
+{
+	width: 35px;
+	height: 50px;
+	display: inline-block;
+	background-image: url();
+	background-position: 59px -420px;
+}
+
+._1icon:hover a.chuaicon
+{
+	background-position: 59px -511px;
+}
+
+a.linkicon
+{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 11px;
+	color: gray;
+}
+
+._1icon:hover a.linkicon
+{
+	color: pink;
+}
+
+._3tin
+{
+	width: 700px;
+	height: auto;
+		margin: auto;
+}
+._1tin
+{
+	width: 200px;
+	height: auto;
+	margin-right: 20px;
+	float: left;
+}
+._1tin:nth-child(3)
+{
+	margin-right: 0px;
+}
+._1tin a
+{
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
+	display: block;
+	padding: 2px 0;
+}
+
+._1tin p
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+	font-size:13px;
+	color: gray;
+}
+
+.khoimary
+{
+	overflow: hidden;
+}

@@ -1,0 +1,70 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.banner
+{
+	text-align: center;
+}
+
+.cangiua
+{
+	width: 1000px;
+	margin: auto;
+}
+.noidung
+{
+	width: 800px;
+}
+
+.tieude
+{
+	font-family: tahoma;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 100px;
+	border-bottom: 3px solid gray;
+	padding-bottom: 8px; 
+	margin-bottom: 20px;
+	color: #333333;
+}
+
+.tinto
+{
+	height: 370px;
+}
+
+.tinto img
+{
+	width: 370px;
+	height: 370px;
+	margin-right: 27px;
+	float: left;
+}
+
+.tdtinto
+{
+	text-decoration: none;
+	font-size: 21px;
+	color: black;
+	margin-bottom: 8px;
+	display: block;
+	font-family: tahoma;
+}
+
+.thongtin
+{
+	font-family: tahoma;
+	font-size: 11px;
+	color: gray;
+	margin-bottom: 8px;
+}
+
+.tinto p
+{
+	color: gray;
+	font-size: 13px;
+	font-family: tahoma;
+}
