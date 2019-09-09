@@ -73,10 +73,6 @@ a.logo{
     padding: 12px 15px;
 }
 
-.carousel-indicators li{
-
-}
-
 .carousel-indicators li.active{
     background: #ec6952;
 }
@@ -124,4 +120,3 @@ a.logo{
 .slidepadding{
     padding: 70px 0px;
 }
-
