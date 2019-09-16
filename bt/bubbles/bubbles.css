@@ -44,7 +44,7 @@ h1 {
 }
 
 .bubbles>g>g:nth-of-type(3n) circle {
-    stroke: #87f5fb;
+    stroke: #dfdb10;
 }
 
 .bubbles>g>g:nth-of-type(4n) circle {
@@ -63,7 +63,7 @@ h1 {
 }
 
 .bubbles-large g:nth-of-type(1) {
-    animation: up 7s infinite;
+    animation: up 10s infinite;
 }
 
 .bubbles-large g:nth-of-type(1) g {
