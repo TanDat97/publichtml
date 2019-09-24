@@ -1,0 +1,28 @@
+/* Flexbox row styles */
+.row-flex {
+    margin: 40px auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-flex div {
+    border: 1px dashed gray;
+    flex: 1 1 100px;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Grid row styles */
+.row-grid {
+    margin: 40px auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.row-grid div {
+    border: 1px dashed gray;
+    text-align: center;
+    padding: 12px;
+}
