@@ -26,3 +26,29 @@
     text-align: center;
     padding: 12px;
 }
+
+.subscriber-form-container {
+    max-width: 650px;
+    margin: 40px auto;
+    border: 1px dashed gray;
+    box-sizing: border-box;
+}
+
+.subscriber-form-container form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subscriber-form-container form input {
+    margin: 6px;
+    padding: 0.4rem;
+    box-sizing: border-box;
+}
+
+.subscriber-form-container form input {
+    flex: 1 1 150px;
+}
+
+.subscriber-form-container form input[type="email"] {
+    flex: 2 1 300px;
+}
