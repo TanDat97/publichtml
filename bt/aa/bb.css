@@ -1,0 +1,54 @@
+/* Flexbox row styles */
+.row-flex {
+    margin: 40px auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-flex div {
+    border: 1px dashed gray;
+    flex: 1 1 100px;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Grid row styles */
+.row-grid {
+    margin: 40px auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.row-grid div {
+    border: 1px dashed gray;
+    text-align: center;
+    padding: 12px;
+}
+
+.subscriber-form-container {
+    max-width: 650px;
+    margin: 40px auto;
+    border: 1px dashed gray;
+    box-sizing: border-box;
+}
+
+.subscriber-form-container form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subscriber-form-container form input {
+    margin: 6px;
+    padding: 0.4rem;
+    box-sizing: border-box;
+}
+
+.subscriber-form-container form input {
+    flex: 1 1 150px;
+}
+
+.subscriber-form-container form input[type="email"] {
+    flex: 2 1 300px;
+}
