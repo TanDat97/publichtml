@@ -1,4 +1,5 @@
 .btn {
+
   &,
   &:link,
   &:visited {
@@ -16,9 +17,9 @@
     cursor: pointer;
   }
 
-  &:hover{
+  &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba($color-dark, .2);  
+    box-shadow: 0 1rem 2rem rgba($color-dark, .2);
 
     &::after {
       transform: scaleX(1.4) scaleY(1.6);
@@ -26,10 +27,13 @@
     }
   }
 
-  &:active,
-  &:focus  {
+  &:active {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba($color-dark, .2);
+  }
+
+  &:focus {
+    outline: none;
   }
 
   &--white {
@@ -69,6 +73,7 @@
 }
 
 .btn-text {
+
   &:link,
   &:visited {
     font-size: $default-font-size;
