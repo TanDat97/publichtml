@@ -49,11 +49,6 @@
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  min-height: calc(100vh - 23rem);
-
-  @media only screen and (max-width: $bp-smallest) {
-    min-height: calc(100vh -10rem);
-  }
 }
 
 .detail {
