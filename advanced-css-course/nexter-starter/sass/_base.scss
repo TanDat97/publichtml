@@ -11,10 +11,14 @@ $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
 // FONT VARIABLES
-$font-primary: 'Nunito',
-sans-serif;
-$font-display: 'Josefin Sans',
-sans-serif;
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em;   // 1200px
+$bp-large: 62.5em;   // 1000px
+$bp-medium: 50em;    // 800px;
+$bp-small: 37.5em;    // 600px;
 
 *,
 *::before,
@@ -42,9 +46,4 @@ body {
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) 
   [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 
   minmax(6rem, 1fr) [full-end];
-
-  & > * {
-    padding: 40px;
-    font-size: 3rem;
-  }
 }
