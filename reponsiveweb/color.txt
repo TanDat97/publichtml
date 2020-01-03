@@ -11,3 +11,26 @@ Pink expresses romance, passivity, care, peace, affection, etc.
 Brown is the color of relaxation and confidence. Brown means earthiness, nature, durability, comfort, and reliability.
 
 http://codingheroes.io/resources/
+
+
+// As hex codes */
+$color-primary-0: #0D58A6;	// Main Primary color */
+$color-primary-1: #5286BC;
+$color-primary-2: #306DAB;
+$color-primary-3: #094480;
+$color-primary-4: #063465;
+
+
+// As hex codes */
+$color-primary-0: #1BAB34;	// Main Primary color */
+$color-primary-1: #65D678;
+$color-primary-2: #3CBC53;
+$color-primary-3: #0D8021;
+$color-primary-4: #00540F;
+
+// As hex codes */
+$color-primary-0: #D35147;	// Main Primary color */
+$color-primary-1: #FFAAA3;
+$color-primary-2: #F57D73;
+$color-primary-3: #B53126;
+$color-primary-4: #8F160D;
