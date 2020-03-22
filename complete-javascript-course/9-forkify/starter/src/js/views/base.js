@@ -11,7 +11,7 @@ export const elements = {
 
 export const elementStrings = {
   loader: 'loader'
-};
+}
 
 export const renderLoader = parent => {
   const loader = `
@@ -25,7 +25,6 @@ export const renderLoader = parent => {
 };
 
 export const clearLoader = () => {
-  const loader = document.querySelector(`.${elementStrings.loader}`);
-  if (loader) loader.parentElement.removeChild(loader);
-};
- 
+  const loader = document.querySelector(`.${elementStrings.loader}`)
+  if (loader) loader.parentElement.removeChild(loader)
+}
