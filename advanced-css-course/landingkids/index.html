@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+	<title>trillo &mdash; Landingkids</title>
+</head>
+
+<body>
+	<header class="kids-header">
+		<div id="kidsHeaderMenu" class="kids-header__menu">
+			<div class="kids-header__menu-container">
+				<div class="kids-header__menu-logo">
+					<img src="./img/kids-logo.png" alt="" width="100%">
+				</div>
+				<div class="kids-header__menu-list">
+					<div class="kids-header__menu-item">
+						<a href="https://beautyfriend.vn/" target="_blank" class="kids-header__menu-link">Trang chủ</a>
+					</div>
+					<div class="kids-header__menu-item">
+						<a href="https://beautyfriend.vn/products/hong-sam-tre-em-vita-kids-gingseng" target="_blank" class="kids-header__menu-link">Đặt hàng</a>
+					</div>
+					<div class="kids-header__menu-item">
+						<a href="#uses" class="kids-header__menu-link">Tác dụng</a>
+					</div>
+					<div class="kids-header__menu-item">
+						<a href="#contact" class="kids-header__menu-link">Liên hệ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="kids-container">
+			<div class="kids-content">
+				<div class="kids-header__right">
+					<h4>Hồng sâm trẻ em</h4>
+					<img src="./img/kids-more.png" alt="more">
+					<h3>Vita ginseng
+						<br>
+						Kids
+					</h3>
+					<img src="./img/kids-more.png" alt="more">
+					<div class=kids-header__uses>
+						<div class="kids-header__uses-item">
+							Thơm ngon
+						</div>
+						<div class="kids-header__uses-item">
+							Bổ dưỡng
+						</div>
+						<div class="kids-header__uses-item">
+							Đề kháng
+						</div>
+					</div>
+					<p>Sản phẩm BÁN CHẠY NHẤT, được tin dùng <br> bởi các bà mẹ Hàn Quốc</p>
+					<a href="https://beautyfriend.vn/products/hong-sam-tre-em-vita-kids-gingseng" target="_blank" class="btn kids-header__moreinfo">Tìm hiểu thêm</a>
+				</div>
+				<img src="./img/kids-header.png" alt="" class="kids-header__image">
+			</div>
+		</div>
+		<script>
+			window.onscroll = function () {
+				myFunctionScroll()
+			}
+
+			var header = document.querySelector('.kids-header')
+			var menuheader = document.getElementById("kidsHeaderMenu")
+			var sticky = menuheader.offsetTop
+
+			function myFunctionScroll() {
+				if (window.pageYOffset > sticky) {
+					menuheader.classList.add("sticky")
+				} else {
+					menuheader.classList.remove("sticky")
+				}
+			}
+		</script>
+	</header>
+
+	<section id="uses" class="kids-uses">
+		<div class="kids-uses__item left">
+		</div>
+		<div class="kids-container">
+			<div class="kids-content">
+				<h3 class="kids-uses__title">Tác dụng nổi bật</h3>
+				<div class="kids-uses__box">
+					<div class="triangle-up"></div>
+					<div class="kids-uses__row">
+						<div class="kids-uses__row-item">
+							<img src="./img/kids-uses1.png" alt="uses1" width="100%">
+							<h5>Tăng cân cho bé lười ăn</h5>
+						</div>
+						<div class="kids-uses__row-item">
+							<img src="./img/kids-uses2.png" alt="uses2" width="100%">
+							<h5>Giúp bé phát triển trí tuệ</h5>
+						</div>
+					</div>
+					<div class="kids-uses__row">
+						<div class="kids-uses__row-item">
+							<div class="kids-uses__row-iteminfo">
+								Tăng cường hệ miễn dịch và <br> giúp bé tràn đầy năng lượng
+							</div>
+							<img src="./img/kids-uses3.png" alt="uses3">
+						</div>
+					</div>
+					<div class="kids-uses__image4">
+						<img src="./img/kids-uses4.png" alt="uses4" width="100%">
+					</div>
+					<div class="kids-uses__image5">
+						<img src="./img/kids-uses5.png" alt="uses5" width="100%">
+					</div>
+					<div class="kids-uses__text">
+						Giúp hấp thụ Canxi, Vitamin D cho bé chậm mọc răng, còi xương
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="kids-uses__item right">
+		</div>
+	</section>
+
+	<section class="kids-promotion">
+		<div class="kids-container">
+			<div class="kids-content">
+				<div class="kids-promotion__box">
+					<div class="kids-promotion__item">
+						<img src="./img/kids-promotion1.png" class="kids-promotion__item-img" alt="promotion1">
+						<div class="kids-promotion__info">
+							<p>Tặng 1 gel rửa tay khô hàn quốc <br> <span>trị giá 100.000đ</span></p>
+							<img src="./img/kids-promotion3.png" alt="">
+						</div>
+					</div>
+					<div class="kids-promotion__item">
+						<img src="./img/kids-promotion2.png" class="kids-promotion__item-img" alt="promotion2">
+						<div class="kids-promotion__info">
+							<p>Tặng 1 dầu massage cho bé <br> Atopalm <span>trị giá 450.000đ</span></p>
+							<img src="./img/kids-promotion3.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="kids-contact">
+		<div class="kids-container">
+			<div class="kids-content">
+				<div class="kids-contact__box">
+					<div class="kids-contact__form">
+						<h3 class="form__title">Ưu đãi khi tư vấn riêng</h3>
+						<form action="#">
+							<div class="form__item">
+								<div class="form__group name">
+									<input type="text" class="form__input" placeholder="Tên" id="name" required />
+									<label for="name" class="form__label">Tên</label>
+								</div>
+								<div class="form__group phone">
+									<input type="number" class="form__input" placeholder="Sđt" id="name" required />
+									<label for="name" class="form__label">Sđt</label>
+								</div>
+							</div>
+							<div class="form__item">
+								<div class="form__group">
+									<input type="email" class="form__input" placeholder="Email" id="name" required />
+									<label for="name" class="form__label">Email</label>
+								</div>
+							</div>
+							<div class="form__item">
+								<div class="form__group">
+									<input type="text" class="form__input" placeholder="Lời nhắn" id="name" required />
+									<label for="name" class="form__label">Lời nhắn</label>
+								</div>
+							</div>
+							<div class="form__item">
+								<button class="btn form__submit">Gửi</button>
+							</div>
+						</form>
+					</div>
+
+					<div class="kids-contact__image">
+						<img src="./img/kids-contact1.png" alt="contact1" width="100%">
+					</div>
+				</div>
+				<img src="./img/kids-contact2.png" alt="contact1" class="kids-contact__fun">
+			</div>
+		</div>
+	</section>
+
+	<section class="kids-ingredient">
+		<div class="kids-container">
+			<div class="kids-content">
+				<div class="kids-ingredient__box">
+					<h3 class="kids-ingredient__title">Thành phần</h3>
+					<div class="kids-ingredient__detail">
+						<img src="./img/kids-ingredient.png" width="100%" alt="">
+						<div class="kids-ingredient__note num1">7 loại quả berry và chuối</div>
+						<div class="kids-ingredient__note num2">20 loại rau củ</div>
+						<div class="kids-ingredient__note num3">Bột hồng sâm lên men Hàn Quốc</div>
+						<div class="kids-ingredient__note num4">Vitamin D tự nhiên</div>
+					</div>
+					<img src="./img/kids-ingredient2.png" class="kids-ingredient__kid" alt="">
+					<div class="kids-ingredient__info">
+						<h5>
+							Phù hợp với bé từ 24 THÁNG đến 10 TUỔI <br>
+							Hương vị chuối và sữa thơm ngon, là thức uống yêu thích của rất nhiều trẻ nhỏ
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="kids-feedback">
+		<div class="kids-container">
+			<div class="kids-content">
+				<div class="kids-feedback__box">
+					<h3 class="kids-feedback__title">Feedback khách hàng</h3>
+					<div class="kids-feedback__images messenger">
+						<img src="./img/kids-feedback1.png" alt="feedback">
+						<img src="./img/kids-feedback2.png" alt="feedback">
+						<img src="./img/kids-feedback3.png" alt="feedback">
+						<img src="./img/kids-feedback4.png" alt="feedback">
+					</div>
+					<div class="kids-feedback__images real">
+						<img src="./img/kids-feedback5.png" alt="feedback">
+						<img src="./img/kids-feedback6.png" alt="feedback">
+						<img src="./img/kids-feedback7.png" alt="feedback">
+						<img src="./img/kids-feedback8.png" alt="feedback">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+</html>
