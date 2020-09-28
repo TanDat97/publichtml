@@ -52,12 +52,14 @@ let ship = {
 
 let i = 0;
 
-while(true) {
+while(i < car.length) {
   if (car[i].time <= ship.time && car[i].bank === ship.bank && !cross) {
     slot += 1;
+    i++;
   } else {
-
+    ship.bank = ship.bank === 1 ? 2 : 1
     ship.time += time
+    ship.slot = 0;
+    console.log(ship.time)
   }
-  
 }
